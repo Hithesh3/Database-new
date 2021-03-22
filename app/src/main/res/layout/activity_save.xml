@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Save">
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_transparent"
+        android:drawableLeft="@drawable/username"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_transparent"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:gravity="left|center_vertical"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape"
+        android:clickable="true"
+        android:onClick="saveData"
+        android:text="SAVE" />
+
+</LinearLayout>
